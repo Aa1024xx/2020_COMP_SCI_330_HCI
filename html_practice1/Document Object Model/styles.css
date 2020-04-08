@@ -1,0 +1,36 @@
+h1 {
+   color: blue;
+}
+
+p1 {
+	font-style: italic;
+	color: green;
+}
+
+p2 {
+	font-style: italic;
+	font-weight: bold;
+	color: purple;
+}
+
+p3 {
+	color: indigo;
+	margin: 5px;
+}
+
+td {
+	padding: 8px;
+	background: orange;
+	font-style: italic;
+}
+
+th {
+	background: darkblue;
+	color: cornsilk;
+	font-size: larger;
+}
+
+table.form {
+	border: 2;
+	padding: 4px;
+}
