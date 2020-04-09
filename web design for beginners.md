@@ -65,6 +65,20 @@ Example: table.html
 + Inheritance
 + Specificity
 ##### CSS Box Model #####  
+##### Layout with float #####  
+##### Beauty School #####  
+
+### Intermediate CSS ###
+##### Styling Navigation Menu #####  
+##### Position Relative Absolute ##### 
+position: absolute/ relative;<br/>
+z-index: stacking overlap<br/>
 
 
-  
+### Necessary CSS Tasks ###
+##### Styling Data Tables ##### 
+Example: table style
+##### Styling Forms ##### 
+[formalize.css](https://formalize.me)<br/>
+[normalize.css](http://necolas.github.io/normalize.css/)<br/>
+Example: form style
