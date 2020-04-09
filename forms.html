@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Forms</title>
+</head>
+<body>
+     <!-- basic type of form -->
+     <form >
+
+     	<label>First Name:
+     		<input type="text" name="firstName">
+     	</label>
+
+     	<label for="lastName">Last Name:</label>
+     	<input id="lastName" type="text" name="lastName">
+
+     	<input type="submit" name="Submit">
+
+     </form>
+     
+     <!-- different type of inputs -->
+     <form>
+     	
+     	<label for="email">Email:</label>
+     	<input id="email" type="email" name="email">
+
+        <input type="submit" name="Save!">
+
+     </form>
+
+
+
+      <form>
+     	
+     	<label for="telephone">Telephone:</label>
+     	<input id="telephone" type="tel" name="telephone">
+
+        <input type="submit" name="Save!">
+
+     </form>
+
+
+
+      <form>
+     	
+     	<label for="yourMessage">Your Message:</label>
+     	<textarea id="yourMessage" name="yourMessage"></textarea>
+     	
+        <input type="submit" name="Save!">
+
+     </form>
+
+     <!-- choosing between a set of options -->
+     <!-- Select -->
+     <label for="favoriteColor">What is your favorite color?</label>
+     <select id="favoriteColor" name="favoriteColor">
+     	<option value="colorRed">Red</option>
+     	<option value="colorBlue">Blue</option>}
+     	<option value="colorPurple">Purple</option>
+     </select>
+
+     <!-- Ratio -->
+     <fieldset>
+     	<legend>What is your favorite meals?</legend>
+     	<input type="radio" id="breakfast" name="favoriteMeal" value="meal1"><<label for="breakfast">Breakfast</label>
+     	<input type="radio" id="lunch" name="favoriteMeal" value="meal2"><<label for="lunch">Lunch</label>
+     	<input type="radio" id="dinner" name="favoriteMeal" value="meal3"><<label for="dinner">Dinner</label>
+     	input
+     </fieldset>
+
+     <!-- Checkbox -->
+     <fieldset>
+     	<legend>Which meals do you like?(Check all apply)</legend>
+     	<input type="checkbox" id="breakfast" name="favoriteMeal" value="meal1"><<label for="breakfast">Breakfast</label>
+     	<input type="checkbox" id="lunch" name="favoriteMeal" value="meal2"><<label for="lunch">Lunch</label>
+     	<input type="checkbox" id="dinner" name="favoriteMeal" value="meal3"><<label for="dinner">Dinner</label>
+     	input
+     </fieldset>
+
+
+</body>
+</html>
