@@ -4,9 +4,9 @@
 Example: lesson_index.html
 
 #### List ####
-1. Unordered list "<ul>"
-2. Ordered list "<ol>"
-3. Description list "<dl>"
+1. Unordered list 
+2. Ordered list 
+3. Description list 
   
 #### Bold & Italic ####
 
