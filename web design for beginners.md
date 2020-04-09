@@ -82,3 +82,21 @@ Example: table style
 [formalize.css](https://formalize.me)<br/>
 [normalize.css](http://necolas.github.io/normalize.css/)<br/>
 Example: form style
+
+### CSS Typography ###
+font-family: 为段落设置字体<br/>
+##### Using Custom "Web" Fonts #####
+1. Hosted Font Solutions
+     - Adobe TypeKit (paid)
+     - Google Fonts (free)
+2. Self Hosted Fonts
+     - @font-face
+
+### Developer Timeout! ###
+##### Developer Tools | Inspect Elements #####
+1. Tracking down where properties are coming from
+2. Experimenting or troubleshooting
+3. Inspiration from other websites
+
+
+     -
