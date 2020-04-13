@@ -286,3 +286,13 @@ script type="text/javascript" src="js/lightbox.min.js" <br/>
 data-lightbox="gallery" <br/>
 Find: ../img/ -> Replace: ../images/ <br/>
 /*thumbnails (img) hover*/ <br/>
+
+
+
+
+### Popular Communities ###
++ WordPress
++ Drupal
++ Ruby on Rails
++ Symfony
++ CodeIgniter
