@@ -287,12 +287,52 @@ data-lightbox="gallery" <br/>
 Find: ../img/ -> Replace: ../images/ <br/>
 /*thumbnails (img) hover*/ <br/>
 
+### Sass ###
+##### Sass Introduction #####
+Access to a Sass Compiler <br/>
+Fast: SassMeist or CodePen <br/>
+Powerful: Koala or Scout <br/>
+<br/>
+Sass Features: <br/>
++ Variables
++ Nesting
++ Inheritance / @extend
++ Splitting up code into smaller files / @import
++ Mixins
++ Operators
+
+##### Sass Continued #####
+Sass Includes...<br/>
++ Number operators
++ Logical operators
++ COntrol directives and expressions
++ much, much more :)
+<br/>
+[sass-lang.com](sass-lang.com)<br/>
+[thesassway.com](thesassway.com)<br/>
 
 
+### Cross Brower Compatibility ###
+##### Feature Detection #####
+What can not be supported? <br/>
+[caniuse.com](caniuse.com)<br/>
+Modernizer(Javascript Library)<br/>
+cssanimations
 
+##### Browser & Device Testing #####
++ Browser software
+     - Google Chrome
+     - Firefox
+     - Opera
+     - Cross Platform? Modern IE:[https://modern.ie](https://modern.ie); VirtualBox: [https://www.virtualbox.org/](https://www.virtualbox.org/)
++ Screen size testing
+     - Google Chrome Developer Tools
+     
 ### Popular Communities ###
 + WordPress
 + Drupal
 + Ruby on Rails
 + Symfony
 + CodeIgniter
+
+
