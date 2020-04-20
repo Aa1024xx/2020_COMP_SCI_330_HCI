@@ -14,5 +14,5 @@
 13. objects and properties
 14. obbjects and methods
 15. Loops and Iteration
-
+14. this: call, apply -> different context
 
