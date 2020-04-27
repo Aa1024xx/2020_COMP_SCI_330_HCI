@@ -15,4 +15,5 @@
 14. obbjects and methods
 15. Loops and Iteration
 14. this: call, apply -> different context
+15. cosnt, let, blocks & IIFEs
 
