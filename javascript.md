@@ -15,5 +15,13 @@
 14. obbjects and methods
 15. Loops and Iteration
 14. this: call, apply -> different context
-15. cosnt, let, blocks & IIFEs
+15. cosnt, let, blocks & IIFEs, strings
+16. Arrow Function: basic, lexical 'this' keyword
+17. Destructuring
+18. Arrays in ES6/ES2015
+19. The Spread Operator
+20. Rest Parameters
+21. Default Parameters
+22. Maps
+23. Classes, Classes with Subclasses
 
