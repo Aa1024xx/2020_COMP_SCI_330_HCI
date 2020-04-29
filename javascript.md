@@ -24,4 +24,5 @@
 21. Default Parameters
 22. Maps
 23. Classes, Classes with Subclasses
-
+24. Asynchronous JavaScript: The event loop, Promises callback, Async / Await,  AJAX & APIs, 
+25. 
