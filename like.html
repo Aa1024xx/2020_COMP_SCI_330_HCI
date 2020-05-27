@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .name{
+        height:50px;
+        padding:30px;
+        border:1px solid black;
+        }
+        .item{
+        position:relative;
+        width:40px;
+        cursor:pointer;
+        }
+        .item:hover{
+        background-color:#F0F8FF;
+        color:#FFA500;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="name">
+        <div class="item">
+            <span>赞</span>
+        </div>
+    </div>
+    <div class="name">
+            <div class="item">
+                <span>赞</span>
+            </div>
+    </div>
+    <div class="name">
+        <div class="item">
+            <span>赞</span>
+        </div>
+    </div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script>
+        $(".item").click(function(){
+            AddFavor(this);
+        });
+        function AddFavor(self){
+            var fontSize = "25";
+            var top = 0;
+            var right = 0;
+            var opacity = 1;
+            var tag_span = document.createElement("span");
+            $(tag_span).text("+1");
+            $(tag_span).css("color","green");
+            $(tag_span).css("position","absolute");
+            $(tag_span).css("fontSize",fontSize + "px");
+            $(tag_span).css("top",top + "px");
+            $(tag_span).css("right",right + "px");
+            $(tag_span).css("opacity",opacity)
+            $(self).append(tag_span)
+
+            var obj = setInterval(function(){
+                fontSize = fontSize -1;
+                top = top - 5;
+                right = right - 5;
+                opacity = opacity - 0.2;
+                $(tag_span).css("fontSize",fontSize + "px");
+                $(tag_span).css("top",top + "px");
+                $(tag_span).css("right",right + "px");
+                $(tag_span).css("opacity",opacity);
+                if(opacity < 0){
+                clearInterval(obj);
+                $(tag_span).remove();}
+
+            },100);
+
+        }
+    </script>
+</body>
+</html>
