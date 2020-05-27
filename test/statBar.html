@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Year Earning</title>
+</head>
+<body>
+  <div id="main" style="width: 600px;height:400px;"></div>
+ 
+  <script src="js/echarts.min.js"></script>
+  <script>
+    var myChart = echarts.init(document.getElementById('main'));
+
+    var option = {
+      title: {
+        text: 'Year Earning'
+      },
+      tooltip: {},
+      legend: {
+        data: ['Earning']
+      },
+      xAxis: 
+        [{
+            type: 'category',
+            data: ['Jan', 'Feb', 'Mar', 'Apr','May', 'Jun','Jul', 'Aug', 'Sept', 'Oct','Nov', 'Dec'],
+            axisTick: {
+                alignWithLabel: true
+            },
+            axisLine: {
+                lineStyle: {
+                    color: '#58afed', 
+                }
+            } 
+        }
+        ],
+      yAxis: [
+        {
+            type: 'value',
+            axisLine: {
+                lineStyle: {
+                    color: '#58afed', 
+              }
+            } 
+        }
+    ],
+
+      series: [{
+        name: 'Earning',
+        type: 'bar',
+        data: [32003, 44105, 79079, 68005, 50600, 57020, 46003, 36105, 44079,53405, 55060, 64920],
+
+        itemStyle: {
+                
+                normal: {
+                    
+                    color: function (params) {
+                        var colorList = ['#FEB64D', '#5BC49F', '#60ACFC', '#60ACFC', '#5BC49F', '#5BC49F', '#5BC49F', '#FEB64D', '#5BC49F', '#5BC49F', '#5BC49F', '#60ACFC']; //for each column
+                        return colorList[params.dataIndex];
+                    }
+                },
+                //hover
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }
+      }]
+    };
+    myChart.setOption(option);
+  </script>
+</body>
+</html>
+
